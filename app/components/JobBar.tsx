@@ -13,10 +13,10 @@ const JobBar = () => {
     <>
       <div className="w-[538px] h-[61px] border-[0.5px] rounded-[36px] border-[#D1D1D1] flex justify-around items-center">
         <div
-          className={`w-[79px] h-[27px] top-[24px] left-[23px] gap-1 flex justify-center items-center p-5 cursor-pointer transition-all duration-200 ${
+          className={`h-[27px] top-[24px] left-[23px] gap-1 flex justify-center items-center p-5 cursor-pointer transition-all duration-200 ${
             activeTab === "jobs"
               ? "bg-[#DC4A2D] rounded-full text-[#FFFFFF] w-[109px]"
-              : "bg-transparent text-[#B0B0B0]"
+              : "bg-transparent text-[#B0B0B0] w-[79px]"
           }`}
           onClick={() => handleTabClick("jobs")}
         >

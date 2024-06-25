@@ -45,7 +45,7 @@ const JobPreviewBar = () => {
         <div
           className={`h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
             active === "messages"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] w-[109px]"
+              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)]"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("messages")}
