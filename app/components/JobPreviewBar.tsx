@@ -12,7 +12,7 @@ const JobPreviewBar = () => {
         <div
           className={`w-max h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
             active === "jobPreview"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)]"
+              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("jobPreview")}
@@ -23,7 +23,7 @@ const JobPreviewBar = () => {
         <div
           className={`h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
             active === "applicants"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)]"
+              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("applicants")}
@@ -34,7 +34,7 @@ const JobPreviewBar = () => {
         <div
           className={`h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
             active === "match"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)]"
+              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("match")}
@@ -45,7 +45,7 @@ const JobPreviewBar = () => {
         <div
           className={`h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
             active === "messages"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)]"
+              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("messages")}
