@@ -11,7 +11,7 @@ type ButtonProps = {
 const Button = ({ text, textColor, bgColor, icon }: ButtonProps) => {
   return (
     <div
-      className="w-[172px] h-[46px] rounded-[8px] border-[0.8px] pt-3 pb-3 pl-6 pr-6 flex items-center justify-center gap-[10px] cursor-pointer"
+      className="w-max h-[46px] rounded-[8px] border-[0.8px] pt-3 pb-3 pl-6 pr-6 flex items-center justify-center gap-[10px] cursor-pointer"
       style={{ backgroundColor: bgColor }}
     >
       <div className="w-5 h-5">
