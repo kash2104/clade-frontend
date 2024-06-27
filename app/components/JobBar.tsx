@@ -13,10 +13,10 @@ const JobBar = () => {
     <>
       <div className="w-[538px] h-[61px] border-[0.5px] rounded-[36px] border-[#D1D1D1] flex justify-around items-center">
         <div
-          className={`h-[27px] top-[24px] left-[23px] gap-1 flex justify-center items-center p-5 cursor-pointer transition-all duration-200 ${
+          className={`h-[27px] top-[24px] left-[23px] gap-1 flex justify-center items-center cursor-pointer transition-all duration-200 ${
             activeTab === "jobs"
-              ? "bg-[#DC4A2D] rounded-full text-[#FFFFFF] w-[109px]"
-              : "bg-transparent text-[#B0B0B0] w-[79px]"
+              ? "bg-[#DC4A2D] rounded-full text-[#FFFFFF] w-[109px] p-6"
+              : "bg-transparent text-[#B0B0B0] w-[79px] p-2"
           }`}
           onClick={() => handleTabClick("jobs")}
         >
@@ -33,10 +33,10 @@ const JobBar = () => {
         </div>
 
         <div
-          className={`w-[128px] h-[27px] top-6 left-[182px] gap-1 flex cursor-pointer items-center justify-center p-5 transition-all duration-200 ${
+          className={`w-[128px] h-[27px] top-6 left-[182px] gap-1 flex cursor-pointer items-center justify-center transition-all duration-200 ${
             activeTab === "messages"
-              ? "bg-[#DC4A2D] rounded-full text-[#FFFFFF] w-[178px]"
-              : "bg-transparent text-[#B0B0B0]"
+              ? "bg-[#DC4A2D] rounded-full text-[#FFFFFF] w-[178px] p-6"
+              : "bg-transparent text-[#B0B0B0] p-2"
           }`}
           onClick={() => handleTabClick("messages")}
         >
@@ -54,10 +54,10 @@ const JobBar = () => {
         </div>
 
         <div
-          className={`w-[125px] h-[27px] top-[24px] left-[390px] gap-1 flex cursor-pointer items-center justify-center p-5 transition-all duration-200 ${
+          className={`w-[125px] h-[27px] top-[24px] left-[390px] gap-1 flex cursor-pointer items-center justify-center transition-all duration-200 ${
             activeTab === "payments"
-              ? "bg-[#DC4A2D] rounded-full text-[#FFFFFF] w-[155px]"
-              : "bg-transparent text-[#B0B0B0]"
+              ? "bg-[#DC4A2D] rounded-full text-[#FFFFFF] w-[155px] p-6"
+              : "bg-transparent text-[#B0B0B0] p-2"
           }`}
           onClick={() => handleTabClick("payments")}
         >

@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const NavBar = () => {
   return (
     <>
-      <div className="h-[61px] mt-6 ml-10 flex justify-between">
+      <div className="h-[61px] mt-6 ml-8 flex justify-between">
         <div className="w-[100px] py-[9px] px-[28px] gap-[10px] bg-[#E7E7E7] flex items-center justify-center">
           <p className="w-[47px] h-[27px] text-[20px] leading-[27px] font-700 text-[#DC4A2D] top-[20%]">
             Logo
