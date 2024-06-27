@@ -4,7 +4,7 @@ import SkillTag from "./SkillTag";
 const Requirements = () => {
   return (
     <>
-      <div className="left-[100px] ml-[100px] mt-10 mb-5 w-[872px] h-[115px] gap-[64px] flex">
+      <div className="left-[100px] ml-[93px] mt-8 mb-5 w-[872px] h-[115px] gap-[64px] flex">
         <div className="flex flex-col gap-2 w-[170px]">
           <div className="h-[19px] font-500 text-[14px] leading-[18.9px] text-[rgba(110,109,109,1)]">
             Skills Required
@@ -34,32 +34,32 @@ const Requirements = () => {
           </div>
         </div>
 
-        <div className="w-[170px] h-[49px] flex flex-col gap-2">
-          <p className="w-max h-[19px] font-500 text-[14px] leading-[18.9px] text-[rgb(110,109,109,1)]">
+        <div className="w-[170px] h-[49px] flex flex-col gap-2 -ml-3">
+          <p className="w-[129px] h-[19px] font-500 text-[10px] leading-[18.9px] text-[rgb(110,109,109,1)]">
             Preferred Language
           </p>
 
-          <p className="h-[22px] font-600 text-[16px] leading-[21.6px] text-[rgb(61,61,61,1)]">
+          <p className="h-[22px] font-600 text-[12px] leading-[21.6px] text-[rgb(61,61,61,1)]">
             English
           </p>
         </div>
 
-        <div className="w-[170px] h-[49px] gap-2 flex flex-col">
-          <p className=" w-8 h-[19px] font-500 text-[14px] leading-[18.9px] text-[rgb(110,109,109,1)]">
+        <div className="w-[170px] h-[49px] gap-2 flex flex-col -ml-10">
+          <p className=" w-8 h-[19px] font-500 text-[10px] leading-[18.9px] text-[rgb(110,109,109,1)]">
             Type
           </p>
 
-          <p className="h-[22px] font-600 text-[16px] leading-[21.6px] text-[rgb(61,61,61,1)]">
+          <p className="h-[22px] font-600 text-[14px] leading-[21.6px] text-[rgb(61,61,61,1)]">
             Full-Time
           </p>
         </div>
 
-        <div className="h-[49px] gap-2 flex flex-col">
-          <p className="h-[19px] font-500 text-[14px] leading-[18.9px] text-[rgb(110,109,109,1)]">
+        <div className="h-[49px] gap-2 flex flex-col -ml-10">
+          <p className="h-[19px] font-500 text-[10px] leading-[18.9px] text-[rgb(110,109,109,1)]">
             Years of Experience
           </p>
 
-          <p className="w-max h-[22px] font-600 text-[16px] leading-[21.6px] text-[rgb(61,61,61,1)]">
+          <p className="w-max h-[22px] font-600 text-[14px] leading-[21.6px] text-[rgb(61,61,61,1)]">
             3+ Years of Experience
           </p>
         </div>
