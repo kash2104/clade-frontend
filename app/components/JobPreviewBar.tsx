@@ -8,11 +8,11 @@ const JobPreviewBar = () => {
   };
   return (
     <>
-      <div className=" w-max h-full top-[129px] ml-[100px] gap-[72px] flex">
+      <div className=" w-max h-full top-[129px] ml-[93px] gap-[72px] flex">
         <div
-          className={`w-max h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
+          className={`h-full flex items-center font-semibold text-[18px] leading-[27px] cursor-pointer ${
             active === "jobPreview"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
+              ? "text-[rgb(220,74,45,1)] font-600 border-b-[rgb(220,74,45,1)] border-b-[2px]"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("jobPreview")}
@@ -21,9 +21,9 @@ const JobPreviewBar = () => {
         </div>
 
         <div
-          className={`h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
+          className={`h-full flex items-center font-semibold text-[14px] leading-[27px] cursor-pointer ${
             active === "applicants"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
+              ? "text-[rgb(220,74,45,1)] font-600"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("applicants")}
@@ -32,9 +32,9 @@ const JobPreviewBar = () => {
         </div>
 
         <div
-          className={`h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
+          className={`h-full flex items-center font-semibold text-[16px] leading-[27px] cursor-pointer ${
             active === "match"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
+              ? "text-[rgb(220,74,45,1)] font-600"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("match")}
@@ -43,9 +43,9 @@ const JobPreviewBar = () => {
         </div>
 
         <div
-          className={`h-full flex items-center font-semibold text-[20px] leading-[27px] cursor-pointer ${
+          className={`h-full flex items-center font-semibold text-[18px] leading-[27px] cursor-pointer ${
             active === "messages"
-              ? "text-[rgb(220,74,45,1)] border-b-[2px] border-b-[rgb(220,74,45,1)] font-600"
+              ? "text-[rgb(220,74,45,1)] font-600"
               : "text-[rgb(136,136,136,1)]"
           }`}
           onClick={() => handleClick("messages")}
